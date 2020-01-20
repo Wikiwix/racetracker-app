@@ -1,0 +1,6 @@
+# action.yml
+name: 'Build node environment'
+description: 'Build a node environment'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
